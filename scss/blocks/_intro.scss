@@ -1,0 +1,131 @@
+.intro{
+    color: #FFFFFF;
+    padding:153px 0 ;
+    max-width: 100%;
+    margin: 96px auto 0;
+    background-image: url(../../images/intro__back__desptop.jpg);
+    background-size:100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    &__img1{
+        position: absolute;
+        left: 0;
+        top:37px;
+        left:-25%;
+    
+    }
+    &__img2{
+        position:absolute;
+        top:37px;
+        left:45%;
+
+    }
+    &__header{
+        max-width: 500px;
+        font-size: 56px;
+        line-height: 56px;
+        letter-spacing: -2.5px;
+    }
+    &__text{
+        position: relative;
+        margin-left: 70px;
+        margin-top: 40px;
+    }
+    &__p{
+        position: relative;
+        max-width: 405px;
+        font-size: 15px;
+        line-height: 25px;
+        
+    }
+    &__btn{
+        @include btn;
+        margin-top: 40px;
+    }
+}
+@media screen and (max-width:1074px){
+    .intro{
+     background-size: cover;
+     background-position: 50%;
+    }
+
+}
+@media screen and (max-width:768px){
+    .intro{
+        height: 650px;
+        padding:117px 0 217px;
+        margin: 96px auto 0;
+        background-image: url(../images/intro__back__tablet.jpg);
+        background-size: 100%;
+        background-position: center;
+        text-align: center;
+        &__img1{
+            display: none;
+        }
+        &__img2{
+            position:absolute;
+            top:125%;
+            left:-22%
+    
+        }
+        &__header{
+            margin: 0 auto;
+            max-width: 573px;
+        }
+        &__text{
+            margin-top: 24px;
+            margin-left: 0;
+        }
+        &__p{
+            margin: 0 auto;
+            max-width: 573px;
+        }
+        &__btn{
+            margin-top: 32px;
+        }
+    }
+}
+@media screen and (max-width:501px){
+  .intro{
+      padding-top: 50px;
+      background-size: cover;
+      &__img2{
+        top:30%;
+        left:-90%
+      }
+  }
+}
+@media screen and (max-width:376px){
+
+        .intro{
+            color: #FFFFFF;
+            padding:115px 0 179px;
+            max-width: 100%;
+            margin: 96px auto 0;
+            background-image: url(../images/intro__back__phone.jpg);
+            background-size: contain;
+            background-repeat: no-repeat;
+
+            &__img2{
+                position:absolute;
+                left:-92%;
+                top:99%;
+                
+        
+            }
+            &__header{
+                max-width: 311px;
+                font-size: 40px;
+                line-height: 40px;
+                letter-spacing: -1.79px;
+            }
+  
+            &__p{
+                position: relative;
+                max-width: 311px;
+    
+            }
+
+        }
+    }
+  

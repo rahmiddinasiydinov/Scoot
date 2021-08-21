@@ -1,0 +1,45 @@
+*, 
+*::before, 
+*::after{
+    box-sizing: border-box;
+    margin: 0;
+    padding:0;
+}
+body{
+    font-family: Lexend Deca;
+}
+h1, h2, h3{
+    font-family: Space Mono;
+    font-style: normal;
+    font-weight: 700;
+}
+.visually-hidden{
+    clip: rect(0 0 0 0);
+    clip-path: inset(50%);
+    height: 1px;
+    overflow: hidden;
+    position: absolute;
+    white-space: nowrap;
+    width: 1px;
+}
+p{
+    // font-family: Lexend Deca;
+    font-style: normal;
+    font-weight: 400;
+}
+a{
+    text-decoration: none;
+    font-family: Space Mono;
+    font-style: normal;
+    font-weight: bold;
+    &:hover{
+        color: #FCB72B;
+        transition: .3s;
+    }
+}
+ul{
+    list-style-type: none;
+}
+.svg__symbols{
+    height: 0;
+}
