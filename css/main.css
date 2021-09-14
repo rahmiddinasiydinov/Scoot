@@ -387,7 +387,7 @@ ul {
   }
   .intro__img2 {
     position: absolute;
-    left: -92%;
+    left: -110%;
     top: 99%;
   }
   .intro__header {
@@ -774,7 +774,7 @@ ul {
   .good .easy__arrow {
     position: absolute;
     bottom: 365px;
-    right: -115%;
+    right: -140%;
   }
   .good .city__mask {
     display: none;
@@ -782,12 +782,12 @@ ul {
   .good .city__arrow {
     position: absolute;
     top: -10px;
-    left: -135%;
+    left: -165%;
   }
   .good .payment__arrow {
     position: absolute;
     top: 0px;
-    right: -146%;
+    right: -180%;
   }
 }
 
