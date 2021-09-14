@@ -63,7 +63,7 @@ ul {
   margin: 0 auto;
 }
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 868px) {
   .container {
     width: 709px;
     padding: 0 10px;
@@ -72,7 +72,7 @@ ul {
   }
 }
 
-@media only screen and (max-width: 375px) {
+@media only screen and (max-width: 476px) {
   .container {
     width: 331px;
     padding: 0 10px;
@@ -175,7 +175,7 @@ ul {
   background-color: transparent;
 }
 
-@media screen and (max-width: 376px) {
+@media screen and (max-width: 476px) {
   .header {
     position: fixed;
     z-index: 10;
@@ -283,11 +283,13 @@ ul {
 .intro {
   color: #FFFFFF;
   padding: 153px 0;
+  width: 1540px;
+  height: 650px;
   max-width: 100%;
   margin: 96px auto 0;
   background-image: url(../images/intro__back__desptop.jpg);
-  background-size: 100%;
-  background-position: center;
+  background-size: cover;
+  background-position: 50%;
   background-repeat: no-repeat;
 }
 
@@ -339,20 +341,12 @@ ul {
   background-color: transparent;
 }
 
-@media screen and (max-width: 1074px) {
-  .intro {
-    background-size: cover;
-    background-position: 50%;
-  }
-}
-
 @media screen and (max-width: 768px) {
   .intro {
     height: 650px;
     padding: 117px 0 217px;
     margin: 96px auto 0;
     background-image: url(../images/intro__back__tablet.jpg);
-    background-size: 100%;
     background-position: center;
     text-align: center;
   }
@@ -381,25 +375,14 @@ ul {
   }
 }
 
-@media screen and (max-width: 501px) {
-  .intro {
-    padding-top: 50px;
-    background-size: cover;
-  }
-  .intro__img2 {
-    top: 30%;
-    left: -90%;
-  }
-}
-
-@media screen and (max-width: 376px) {
+@media screen and (max-width: 476px) {
   .intro {
     color: #FFFFFF;
     padding: 115px 0 179px;
     max-width: 100%;
     margin: 96px auto 0;
     background-image: url(../images/intro__back__phone.jpg);
-    background-size: contain;
+    background-size: cover;
     background-repeat: no-repeat;
   }
   .intro__img2 {
@@ -464,7 +447,7 @@ ul {
   background-color: #E5ECF4;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 868px) {
   .guide {
     padding-top: 122px;
   }
@@ -525,7 +508,7 @@ ul {
   }
 }
 
-@media screen and (max-width: 376px) {
+@media screen and (max-width: 476px) {
   .guide {
     padding-top: 120px;
   }
@@ -652,7 +635,7 @@ ul {
   right: -49%;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 868px) {
   .good {
     margin-top: 145px;
   }
@@ -735,7 +718,7 @@ ul {
   }
 }
 
-@media screen and (max-width: 376px) {
+@media screen and (max-width: 476px) {
   .good {
     margin-top: 120px;
   }
@@ -969,7 +952,7 @@ ul {
   margin-right: 0;
 }
 
-@media screen and (max-width: 376px) {
+@media screen and (max-width: 476px) {
   .footer {
     padding: 64px 0 90px;
     background-color: #333A44;

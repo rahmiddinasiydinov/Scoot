@@ -1,11 +1,13 @@
 .intro{
     color: #FFFFFF;
     padding:153px 0 ;
+    width: 1540px;
+    height: 650px;
     max-width: 100%;
     margin: 96px auto 0;
     background-image: url(../images/intro__back__desptop.jpg);
-    background-size:100%;
-    background-position: center;
+    background-size:cover;
+    background-position: 50%;
     background-repeat: no-repeat;
     &__img1{
         position: absolute;
@@ -43,20 +45,13 @@
         margin-top: 40px;
     }
 }
-@media screen and (max-width:1074px){
-    .intro{
-     background-size: cover;
-     background-position: 50%;
-    }
 
-}
 @media screen and (max-width:768px){
     .intro{
         height: 650px;
         padding:117px 0 217px;
         margin: 96px auto 0;
         background-image: url(../images/intro__back__tablet.jpg);
-        background-size: 100%;
         background-position: center;
         text-align: center;
         &__img1{
@@ -85,17 +80,17 @@
         }
     }
 }
-@media screen and (max-width:501px){
-  .intro{
-      padding-top: 50px;
-      background-size: cover;
-      &__img2{
-        top:30%;
-        left:-90%
-      }
-  }
-}
-@media screen and (max-width:376px){
+// @media screen and (max-width:501px){
+//   .intro{
+//       padding-top: 50px;
+//       background-size: cover;
+//       &__img2{
+//         top:30%;
+//         left:-90%
+//       }
+//   }
+// }
+@media screen and (max-width:476px){
 
         .intro{
             color: #FFFFFF;
@@ -103,7 +98,7 @@
             max-width: 100%;
             margin: 96px auto 0;
             background-image: url(../images/intro__back__phone.jpg);
-            background-size: contain;
+            background-size: cover;
             background-repeat: no-repeat;
 
             &__img2{
